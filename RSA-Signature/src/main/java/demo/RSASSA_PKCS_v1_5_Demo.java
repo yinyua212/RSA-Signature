@@ -55,7 +55,7 @@ public class RSASSA_PKCS_v1_5_Demo {
 			boolean result = verify(publicKey, signature, messageBytes);
 			
 			//print result
-			System.out.println(String.format("ooResult: %s", result));		
+			System.out.println(String.format("RSA PKCS_v1-5 result: %s", result));		
 	
 		}catch(Exception e) {
 			e.printStackTrace();

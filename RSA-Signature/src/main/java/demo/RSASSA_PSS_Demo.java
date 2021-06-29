@@ -47,7 +47,7 @@ public class RSASSA_PSS_Demo {
 			boolean result = verify(publicKey, signature, messageBytes); 
 			
 			// print result
-			System.out.println(String.format("Result: %s", result));
+			System.out.println(String.format("RSA PSS result: %s", result));
 			
 		}catch(Exception e) {
 			e.printStackTrace();
